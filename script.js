@@ -52,3 +52,29 @@ $(window).on('resize', function() {
     $('#intro_1 p').css("fontSize", '');
   }
 });
+
+// animatie.css
+$('#title_1 h1').addClass('animate__animated animate__bounce animate__infinite');
+const element = document.querySelector('#title_1 h1');
+element.style.setProperty('--animate-duration', '2s');
+$('#intro-icon1').hover(
+  function() {
+    $(this).addClass('animate__animated animate__headShake animate__infinite');
+  }, function() {
+    $(this).removeClass('animate__animated animate__headShake animate__infinite');
+  }
+);
+$('#intro-icon2').hover(
+  function() {
+    $(this).addClass('animate__animated animate__tada animate__infinite');
+  }, function() {
+    $(this).removeClass('animate__animated animate__tada animate__infinite');
+  }
+);
+$('#intro-icon3').hover(
+  function() {
+    $(this).addClass('animate__animated animate__rubberBand animate__infinite');
+  }, function() {
+    $(this).removeClass('animate__animated animate__rubberBand animate__infinite');
+  }
+);

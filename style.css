@@ -151,10 +151,22 @@ a {
 #intro_1 .icon {
   margin: 15px;
 }
+#intro-icon1:hover {
+  color: #886666;
+}
+#intro-icon2:hover {
+  color: #888800;
+}
+#intro-icon3:hover {
+  color: #886600;
+}
 
 /* Contact Section */
-#contact_1 .icon {
-  margin: 0 10px 0;
+#contact_1 p {
+  margin-bottom: 5px;
+}
+#contact_1 a {
+  margin: 0 5px 0;
 }
 
 /* fullpage js nav */
