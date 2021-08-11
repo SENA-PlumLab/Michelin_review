@@ -41,7 +41,7 @@ a {
   height: 100%;
 }
 
-/* Navication Bar */
+/* Bootstrap Navication Bar */
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 1.5rem;
@@ -64,7 +64,7 @@ a {
   font-size: 1.2rem;
 }
 
-/* title scroll-down animation */
+/* Title scroll-down animation */
 .container {
   position: relative;
   width: 24px;
@@ -161,7 +161,15 @@ a {
 #fullpage {
   padding-top: 25px;
 }
-
+.fp-viewing-title #fp-nav ul li a span{
+    background: #FF0000;
+}
+.fp-viewing-intro #fp-nav ul li a span{
+    background: #00FF00;
+}
+.fp-viewing-contact #fp-nav ul li a span{
+    background: #0000FF;
+}
 
 /* media query */
 @media (max-width: 720px) {

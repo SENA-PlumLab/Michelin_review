@@ -6,12 +6,10 @@ $('#fullpage').fullpage({
   anchors: ['title', 'intro', 'contact'],
   navigation: true,
   navigationPosition: 'right',
-  navigationTooltips: ['Title', 'Intro', 'Contact'],
+  // navigationTooltips: ['Title', 'Intro', 'Contact'],
   sectionColor: ['#ff8888', '#ffff88', '#ffcc88'],
   showActiveTooltip: true,
   sectionSelctior: '.section',
-  slideSelector: '.slice',
-  slidenavigation: false,
   paddingTop: '50px',
   controlArrows: true,
 })
