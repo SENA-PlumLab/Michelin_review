@@ -3,6 +3,12 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 canvas {
@@ -40,6 +46,14 @@ a {
   font-family: "Ubuntu";
   font-size: 1.5rem;
   font-weight: bold;
+  padding: 0;
+}
+
+.navbar-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 45px;
 }
 
 .nav-item {
@@ -48,12 +62,6 @@ a {
 
 .nav-link {
   font-size: 1.2rem;
-}
-
-@media (max-width: 720px) {
-  .navbar-toggler {
-    display: none !important;
-  }
 }
 
 /* title scroll-down animation */
@@ -139,12 +147,25 @@ a {
   }
 }
 
-/* Intro */
+/* Intro Section */
 #intro_1 .icon {
   margin: 15px;
+}
+
+/* Contact Section */
+#contact_1 .icon {
+  margin: 0 10px 0;
 }
 
 /* fullpage js nav */
 #fullpage {
   padding-top: 25px;
+}
+
+
+/* media query */
+@media (max-width: 720px) {
+  .navbar-toggler {
+    display: none !important;
+  }
 }
