@@ -3,7 +3,7 @@ tsParticles
     "autoPlay": true,
     "background": {
       "color": {
-        "value": "#f3f3f2"
+        "value": "#fefefd"
       },
       "image": "",
       "position": "",
