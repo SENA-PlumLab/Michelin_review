@@ -4,26 +4,30 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
 canvas {
   display: block;
   vertical-align: bottom;
 }
-header {
-    /* min-width: 460px; */
-    position: absolute;
- height: 50px;
-  z-index: 100;
 
+header {
+  /* min-width: 460px; */
+  position: absolute;
+  height: 50px;
+  z-index: 100;
 }
+
 h1 {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
   margin-bottom: 15px;
 }
+
 a {
   color: inherit;
 }
+
 /* ---- tsparticles container ---- */
 #tsparticles {
   position: absolute;
@@ -32,7 +36,6 @@ a {
 }
 
 /* Navication Bar */
-
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 1.5rem;
@@ -48,9 +51,9 @@ a {
 }
 
 @media (max-width: 720px) {
-   .navbar-toggler {
-       display: none !important;
-   }
+  .navbar-toggler {
+    display: none !important;
+  }
 }
 
 /* title scroll-down animation */
@@ -59,6 +62,7 @@ a {
   width: 24px;
   height: 24px;
 }
+
 .chevron {
   position: absolute;
   width: 28px;
@@ -68,12 +72,15 @@ a {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
+
 .chevron:first-child {
   animation: move 3s ease-out 1s infinite;
 }
+
 .chevron:nth-child(2) {
   animation: move 3s ease-out 2s infinite;
 }
+
 .chevron:before,
 .chevron:after {
   content: ' ';
@@ -82,32 +89,39 @@ a {
   width: 51%;
   background: #000;
 }
+
 .chevron:before {
   left: 0;
   transform: skew(0deg, 30deg);
 }
+
 .chevron:after {
   right: 0;
   width: 50%;
   transform: skew(0deg, -30deg);
 }
+
 @keyframes move {
   25% {
     opacity: 1;
   }
+
   33% {
     opacity: 1;
     transform: translateY(30px);
   }
+
   67% {
     opacity: 1;
     transform: translateY(40px);
   }
+
   100% {
     opacity: 0;
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
+
 .text {
   display: block;
   margin-top: 75px;
@@ -118,16 +132,15 @@ a {
   opacity: .25;
   animation: pulse 2s linear alternate infinite;
 }
+
 @keyframes pulse {
   to {
     opacity: 1;
   }
 }
 
-
 /* Intro */
-
-#intro_1 .icon{
+#intro_1 .icon {
   margin: 15px;
 }
 
