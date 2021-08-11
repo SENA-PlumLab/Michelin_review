@@ -1,0 +1,61 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+header {
+    /* margin-bottom: 20%; */
+    min-width: 460px;
+    position: absolute;
+ height: 50px;
+  z-index: 100;
+
+}
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+a {
+  color: inherit;
+}
+/* ---- tsparticles container ---- */
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navication Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+/* Intro */
+
+#intro_1 .icon{
+  margin: 15px;
+}
