@@ -668,5 +668,15 @@ $('#fullpage').fullpage({
   sectionSelctior: '.section',
   slideSelector: '.slice',
   slidenavigation: false,
-  paddingTop: '50px'
+  paddingTop: '50px',
+  controlArrows: true,
 })
+$(document).on('click', '#btn-toTitle', function(){
+  $.fn.fullpage.moveTo('title');
+});
+$(document).on('click', '#btn-toIntro', function(){
+  $.fn.fullpage.moveTo('intro');
+});
+$(document).on('click', '#btn-toContact', function(){
+  $.fn.fullpage.moveTo('contact');
+});
